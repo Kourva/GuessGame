@@ -7,6 +7,16 @@ git clone https://github.com/MemeSec/GuessGame && cd GuessGame
 ```
 
 # Requirements
++ Tkinter
+-- pacman
+```bash
+sudo pacman -Sy tk
+```
+-- apt
+```bash
+sudo apt-get install tk
+```
+
 + PyAutoGui
 ```bash
 python3 -m pip install PyAutoGUI
