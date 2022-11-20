@@ -166,6 +166,7 @@ else:
 	    hard_score = lines[0]
 	
 	pyautogui.confirm(
-        title = "Guess Game (Score)",
-        text = f"easy{easy_score.rjust(10)}\nMedium{medium_score.rjust(10)}\nHard{hard_score.rjust(10)}"
+            title = "Guess Game (Score)",
+            text = f"easy{easy_score.rjust(10)}\nMedium{medium_score.rjust(10)}\nHard{hard_score.rjust(10)}",
+	    buttons = "OK"	
 	)
