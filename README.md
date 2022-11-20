@@ -20,8 +20,14 @@ sudo apt install tk
 python3 -m pip install PyAutoGUI
 ```
 
+# Run The Game
+```bash
+python3 GuessGame.py
+```
+
+
 # Reset Score
 To reset the score just run **Reset-Score.py**
 ```bash
-python3 Reset-Score
+python3 Reset-Scores.py
 ```
