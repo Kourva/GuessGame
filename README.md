@@ -26,7 +26,7 @@ python3 -m pip install PyAutoGUI
 ```bash
 python3 GuessGame.py
 ```
-
+ 
 
 # Reset Score
 To reset the score just run **Reset-Score.py**
