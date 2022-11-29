@@ -3,7 +3,7 @@ Simple Python Guess Game with PyAutoGUI
 
 # Clone
 ```bash
-git clone https://github.com/MemeSec/GuessGame && cd GuessGame 
+git clone https://github.com/Izolabela/GuessGame && cd GuessGame 
 ```
 
 # Requirements
