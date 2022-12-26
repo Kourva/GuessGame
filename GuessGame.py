@@ -1,8 +1,8 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 
 # Simple Guess game with PyAutoGUI
 # With Score
-# GitHub: https://github.com/Izolabela/GuessGame
+# GitHub: https://github.com/Kourva/GuessGame
 
 import pyautogui
 import random
@@ -20,12 +20,12 @@ def game_easy():
 		pre = ask
 		if int(ask) > guess:
 		    ask = pyautogui.prompt(
-			    text=f'Enter a number smaller than {pre}',
+			text=f'Enter a number smaller than {pre}',
 		    	title='Guess Game (Easy)',
 		    )
 		elif int(ask) < guess:
 		    ask = pyautogui.prompt(
-			    text=f'Enter a number bigger than {pre}',
+			text=f'Enter a number bigger than {pre}',
 		    	title='Guess Game (Easy)',
 		    )
 		step += 1
