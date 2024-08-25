@@ -2,7 +2,7 @@
 
 # Simple Guess game with PyAutoGUI
 # With Score
-# GitHub: https://github.com/kozyol/GuessGame
+# GitHub: https://github.com/Kourva/GuessGame
 
 import pyautogui
 import random
